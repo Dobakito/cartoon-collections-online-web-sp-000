@@ -7,7 +7,12 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  calls.find{|c| c.length > 5 == true else false}
+  calls.find do |c|
+    if c.length > 5
+      true 
+    else 
+      false 
+  end    
 end
 
 def find_the_cheese
