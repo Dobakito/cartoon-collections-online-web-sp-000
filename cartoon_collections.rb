@@ -4,6 +4,7 @@ end
 
 def summon_captain_planet(elements)
   elements.map {|ele| puts "#{ele.capitalize}!"}
+  return elements
 end
 
 def long_planeteer_calls
